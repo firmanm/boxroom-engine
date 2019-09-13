@@ -4,6 +4,6 @@ module Boxroom::Folder::Contract
     property :sort_field, virtual: true
     property :sort_dir, virtual: true
 
-    validates :folder_id, presence: true
+    # validates :folder_id, presence: true
   end
 end
